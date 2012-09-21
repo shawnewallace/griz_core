@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Griz.Core", "Griz.Core\Griz.Core.csproj", "{BFD059CA-205D-4239-9128-D67D9961960F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Griz.Core.Tests.Unit", "Griz.Core.Tests.Unit\Griz.Core.Tests.Unit.csproj", "{A6525CAA-BE9C-45AC-B544-B453D172E88F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFD059CA-205D-4239-9128-D67D9961960F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD059CA-205D-4239-9128-D67D9961960F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD059CA-205D-4239-9128-D67D9961960F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD059CA-205D-4239-9128-D67D9961960F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6525CAA-BE9C-45AC-B544-B453D172E88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6525CAA-BE9C-45AC-B544-B453D172E88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6525CAA-BE9C-45AC-B544-B453D172E88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6525CAA-BE9C-45AC-B544-B453D172E88F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
