@@ -6,26 +6,26 @@ using System.Threading.Tasks;
 
 namespace Griz.Core.Data.InMem
 {
-  public class InMemRepository<TEntity, TKey> : IRepository<TEntity, TKey> where TEntity : IEntity<TKey> 
+  public class InMemRepository<TEntity, TKey> : IRepository<TEntity, TKey> where TEntity : IEntity<TKey>
   {
-    
 
-	  public InMemRepository(IUnitOfWork db)
-	  {
-		  UnitOfWork = db;
-	  }
 
-	  protected static List<TEntity> Collection
+    public InMemRepository(IUnitOfWork db)
+    {
+      UnitOfWork = db;
+    }
+
+    protected static List<TEntity> Collection
     {
       get { return _collection ?? (_collection = new List<TEntity>()); }
       set { _collection = value; }
     }
-		private static List<TEntity> _collection;
+    private static List<TEntity> _collection;
 
     public IUnitOfWork UnitOfWork { get; set; }
     public TEntity GetById(TKey id)
     {
-      return (TEntity) Collection.FirstOrDefault(c => c.Id.Equals(id));
+      return (TEntity)Collection.FirstOrDefault(c => c.Id.Equals(id));
     }
 
     public TEntity Create(TEntity entity)
@@ -50,9 +50,9 @@ namespace Griz.Core.Data.InMem
       return Collection;
     }
 
-	  public void CleanUp()
-	  {
-		  _collection = new List<TEntity>();
-	  }
+    public void CleanUp()
+    {
+      _collection = new List<TEntity>();
+    }
   }
 }

@@ -59,7 +59,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CentricConnect.Core\Griz.Core.csproj">
+    <ProjectReference Include="..\Griz.Core\Griz.Core.csproj">
       <Project>{6A7F5BDE-2083-41EA-8045-439F275F3C93}</Project>
       <Name>Griz.Core</Name>
     </ProjectReference>

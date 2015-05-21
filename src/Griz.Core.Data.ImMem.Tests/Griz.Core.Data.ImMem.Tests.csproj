@@ -61,11 +61,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Centric.Core.Data.InMem\Griz.Core.Data.InMem.csproj">
-      <Project>{6E32C423-5126-487A-9CDC-5514BC25BC8E}</Project>
+    <ProjectReference Include="..\Griz.Core.Data.InMem\Griz.Core.Data.InMem.csproj">
+      <Project>{6e32c423-5126-487a-9cdc-5514bc25bc8e}</Project>
       <Name>Griz.Core.Data.InMem</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CentricConnect.Core\Griz.Core.csproj">
+    <ProjectReference Include="..\Griz.Core\Griz.Core.csproj">
       <Project>{6A7F5BDE-2083-41EA-8045-439F275F3C93}</Project>
       <Name>Griz.Core</Name>
     </ProjectReference>
