@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Centric.Core
+namespace Griz.Core
 {
 	public class DataAnnotationsValidator : IValidator
 	{

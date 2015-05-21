@@ -1,7 +1,7 @@
-﻿using Centric.Core.Data.InMem;
+﻿using Griz.Core.Data.InMem;
 using NUnit.Framework;
 
-namespace Centric.Core.Data.ImMem.Tests
+namespace Griz.Core.Data.ImMem.Tests
 {
 	[TestFixture]
 	public class InMemRepositoryTests

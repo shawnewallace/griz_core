@@ -1,4 +1,4 @@
-﻿namespace Centric.Core
+﻿namespace Griz.Core
 {
   public interface IAddress
   {

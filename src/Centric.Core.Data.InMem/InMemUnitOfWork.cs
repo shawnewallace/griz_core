@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Centric.Core.Data.InMem
+namespace Griz.Core.Data.InMem
 {
     public class InMemUnitOfWork : IUnitOfWork
     {

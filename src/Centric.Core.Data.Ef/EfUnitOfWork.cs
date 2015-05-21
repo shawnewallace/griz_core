@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity;
-using Centric.Core;
+using Griz.Core;
 
-namespace Centric.Core.Data.Ef
+namespace Griz.Core.Data.Ef
 {
 	public interface IEfUnitOfWork : IUnitOfWork
 	{

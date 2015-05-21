@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Centric.Core
+namespace Griz.Core
 {
 	public interface IRepository<TEntity, in TKey> where TEntity : IEntity<TKey>
 	{

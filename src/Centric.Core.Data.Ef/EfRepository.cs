@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using Centric.Core;
+using Griz.Core;
 
-namespace Centric.Core.Data.Ef
+namespace Griz.Core.Data.Ef
 {
 
 	public interface IEfRepository<TEntity, TKey> : IRepository<TEntity, TKey> where TEntity : IEntity<TKey>

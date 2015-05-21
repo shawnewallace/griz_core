@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Centric.Core
+namespace Griz.Core
 {
   [DataContract]
 	public class Address : IAddress

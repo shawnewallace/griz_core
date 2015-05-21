@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Centric.Core
+namespace Griz.Core
 {
 	public class DateTimeOverrider : IDisposable
 	{

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Centric.Core
+namespace Griz.Core
 {
 	public static class Constants
 	{

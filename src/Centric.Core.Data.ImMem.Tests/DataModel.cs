@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Centric.Core.Data.ImMem.Tests
+namespace Griz.Core.Data.ImMem.Tests
 {
 
 	public class DataModel : IEntity<int>

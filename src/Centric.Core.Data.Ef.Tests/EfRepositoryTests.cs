@@ -1,4 +1,4 @@
-﻿using Centric.Core.Data.Ef;
+﻿using Griz.Core.Data.Ef;
 using NUnit.Framework;
 
 namespace EFmpl.Lib.Integration.Tests

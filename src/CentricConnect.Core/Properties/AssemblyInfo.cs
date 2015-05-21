@@ -5,12 +5,10 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Centric.Core")]
+[assembly: AssemblyTitle("Griz.Core")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Grange Insurance")]
-[assembly: AssemblyProduct("Centric.Core")]
-[assembly: AssemblyCopyright("Copyright © Grange Insurance 2014")]
+[assembly: AssemblyProduct("Griz.Core")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
