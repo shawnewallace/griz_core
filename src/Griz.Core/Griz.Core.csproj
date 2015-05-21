@@ -56,7 +56,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Address.cs" />
+    <Compile Include="Models\Address.cs" />
     <Compile Include="DateTimeHelper.cs" />
     <Compile Include="DataAnnotationsValidator.cs" />
     <Compile Include="Constants.cs" />

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{63C637FF-07C6-4F05-9A82-180C2DC75EFA}"
 	ProjectSection(SolutionItems) = preProject
@@ -19,6 +19,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Griz.Core.Data.ImMem.Tests", "Griz.Core.Data.ImMem.Tests\Griz.Core.Data.ImMem.Tests.csproj", "{8CD3D1AF-589B-432D-B589-F6CE0CAF9E58}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Griz.Core.Data.InMem", "Griz.Core.Data.InMem\Griz.Core.Data.InMem.csproj", "{6E32C423-5126-487A-9CDC-5514BC25BC8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Griz.Core.Tests.Unit", "Griz.Core.Tests.Unit\Griz.Core.Tests.Unit.csproj", "{98C9A752-40CB-4100-9E04-42D526F229D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,12 @@ Global
 		{6E32C423-5126-487A-9CDC-5514BC25BC8E}.local|Any CPU.Build.0 = local|Any CPU
 		{6E32C423-5126-487A-9CDC-5514BC25BC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E32C423-5126-487A-9CDC-5514BC25BC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C9A752-40CB-4100-9E04-42D526F229D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C9A752-40CB-4100-9E04-42D526F229D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C9A752-40CB-4100-9E04-42D526F229D1}.local|Any CPU.ActiveCfg = Release|Any CPU
+		{98C9A752-40CB-4100-9E04-42D526F229D1}.local|Any CPU.Build.0 = Release|Any CPU
+		{98C9A752-40CB-4100-9E04-42D526F229D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C9A752-40CB-4100-9E04-42D526F229D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

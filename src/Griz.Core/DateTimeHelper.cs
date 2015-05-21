@@ -10,16 +10,16 @@ namespace Griz.Core
 		{
 			get
 			{
-				return OverridenDateTime == null ? DateTime.Now : OverridenDateTime.Value;
+				return OverridenDateTime ?? DateTime.Now;
 			}
 		}
 
-    public static DateTime UtcNow
-    {
-      get
-      {
-        return OverridenDateTime == null ? DateTime.UtcNow : OverridenDateTime.Value.ToUniversalTime();
-      }
-    }
+		public static DateTime UtcNow
+		{
+			get
+			{
+				return OverridenDateTime == null ? DateTime.UtcNow : OverridenDateTime.Value.ToUniversalTime();
+			}
+		}
 	}
 }
